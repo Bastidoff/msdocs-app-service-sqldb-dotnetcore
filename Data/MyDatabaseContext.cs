@@ -14,6 +14,6 @@ namespace DotNetCoreSqlDb.Data
         {
         }
 
-        public DbSet<DotNetCoreSqlDb.Models.Todo> Todo { get; set; } = default!;
+        public DbSet<Todo> Todo { get; set; } = default!;
     }
 }
